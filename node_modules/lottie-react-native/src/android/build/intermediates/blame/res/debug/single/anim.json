@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/anim/abc_popup_enter.xml"
+    }
+]

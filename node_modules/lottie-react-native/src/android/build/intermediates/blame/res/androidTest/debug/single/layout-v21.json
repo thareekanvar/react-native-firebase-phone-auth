@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/20cbf6bf37239b88c82697ed964123df4ab7a9b9/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/20cbf6bf37239b88c82697ed964123df4ab7a9b9/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/20cbf6bf37239b88c82697ed964123df4ab7a9b9/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/20cbf6bf37239b88c82697ed964123df4ab7a9b9/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

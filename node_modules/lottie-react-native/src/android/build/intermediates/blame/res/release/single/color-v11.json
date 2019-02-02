@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/src/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/lib/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/gabriel_peal/repos/lottie-react-native/lib/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/gabriel_peal/.android/build-cache/5b690e7994c835739b80a1c5c5228f2b9c0086c6/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
