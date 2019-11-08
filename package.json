@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "@expo/samples": "2.1.1",
-    "expo": "^31.0.2",
+    "@expo/vector-icons": "^10.0.6",
+    "expo": "^35.0.0",
+    "expo-web-browser": "^7.0.1",
     "firebase": "^5.1.0",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
     "react-navigation": "^2.18.2"
   },
   "devDependencies": {

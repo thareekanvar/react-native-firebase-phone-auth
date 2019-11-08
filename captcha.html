@@ -35,6 +35,7 @@
         function sendTokenToApp(token) {
             var baseUri = decodeURIComponent(location.search.replace(/^\?appurl\=/, ''));
             const finalUrl = location.href = baseUri + '/?token=' + encodeURIComponent(token);
+            
             const continueBtn = document.querySelector('#continue-btn');
             continueBtn.onclick = (event)=>{
                 window.open(finalUrl,'_blank')
