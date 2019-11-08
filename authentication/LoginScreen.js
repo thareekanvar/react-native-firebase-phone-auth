@@ -9,7 +9,7 @@ const captchaUrl = `https://workers-ef768.firebaseapp.com/captcha.html?appurl=${
   ""
 )}`;
 
-export default class App extends React.Component {
+export default class LoginScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,23 +23,16 @@ export default class App extends React.Component {
     });
   }
 
-  onPhoneChange = phone => {
-    this.setState({ phone });
-  };
-  onPhoneComplete = async () => {
+  listener = ({ url }) => {
+    console.log("im ok");
+    // WebBrowser.dismissBrowser(); for IOS
+    console.log("not ok");
     let token = null;
-
-    const listener = ({ url }) => {
-      console.log("im ok");
-      WebBrowser.dismissBrowser();
-
-      const tokenEncoded = Linking.parse(url).queryParams["token"];
-      if (tokenEncoded) token = decodeURIComponent(tokenEncoded);
-    };
-    Linking.addEventListener("url", listener);
-    await WebBrowser.openBrowserAsync(captchaUrl);
-    Linking.removeEventListener("url", listener);
+    const tokenEncoded = Linking.parse(url).queryParams["token"];
+    if (tokenEncoded) token = decodeURIComponent(tokenEncoded);
+    console.log(token);
     if (token) {
+      console.log("token");
       const { phone } = this.state;
       //fake firebase.auth.ApplicationVerifier
       const captchaVerifier = {
@@ -47,7 +40,7 @@ export default class App extends React.Component {
         verify: () => Promise.resolve(token)
       };
       try {
-        const confirmationResult = await firebase
+        const confirmationResult = firebase
           .auth()
           .signInWithPhoneNumber(phone, captchaVerifier);
         this.setState({ confirmationResult });
@@ -56,11 +49,47 @@ export default class App extends React.Component {
       }
     }
   };
+
+  componentDidMount() {
+    Linking.addEventListener("url", this.listener);
+  }
+
+  componentWillUnmount() {
+    Linking.removeEventListener("url", this.listener);
+  }
+
+  onPhoneChange = phone => {
+    this.setState({ phone });
+  };
+  onPhoneComplete = async () => {
+    await WebBrowser.openBrowserAsync(captchaUrl);
+    // if (token) {
+    //   console.log("token");
+    //   const { phone } = this.state;
+    //   //fake firebase.auth.ApplicationVerifier
+    //   const captchaVerifier = {
+    //     type: "recaptcha",
+    //     verify: () => Promise.resolve(token)
+    //   };
+    //   try {
+    //     const confirmationResult = await firebase
+    //       .auth()
+    //       .signInWithPhoneNumber(phone, captchaVerifier);
+    //     this.setState({ confirmationResult });
+    //   } catch (e) {
+    //     console.warn(e);
+    //   }
+    // }
+  };
   onCodeChange = code => {
+    console.log("on code");
     this.setState({ code });
+    console.log(code);
   };
   onSignIn = async () => {
+    console.log("signin");
     const { confirmationResult, code } = this.state;
+    console.log(code);
     try {
       await confirmationResult.confirm(code);
     } catch (e) {
