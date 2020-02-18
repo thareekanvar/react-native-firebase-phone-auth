@@ -27,7 +27,7 @@ I wrote tested simplest code below. You can directly "copy-paste" it. Just add f
 - SMS code will send to Our Given Phone Number
 
 ```
-Go to " ./authentication/Loginscreen " Edit captchaUrl with Your Hosted URL
+Go to " ./src/domain/phoneAuthentication " Edit captchaUrl with Your Hosted URL
 Go to " App.js " Change Your Firebase Config
 Here You Must Enter The Number is in international format eg: if indian Number then type " +91xxxxxxxxxx " .
 ```
@@ -37,6 +37,12 @@ Here You Must Enter The Number is in international format eg: if indian Number t
 ```
 git clone https://github.com/thareekanvar/react-native-firebase-phone-auth.git
 ```
+
+#### Contributors
+
+###### We are welcome more contributions more authentications..
+
+Alex Andrade ( Main part of New update )
 
 ###### Example
 
